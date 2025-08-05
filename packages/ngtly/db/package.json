@@ -1,0 +1,26 @@
+{
+	"name": "@ngtly/db",
+	"version": "0.1.0",
+	"main": "./index.ts",
+	"types": "./index.ts",
+	"license": "MIT",
+	"scripts": {
+		"postinstall": "bun run prisma:generate",
+		"clean": "rm -rf .turbo node_modules",
+		"prisma:generate": "bun loadEnv -- prisma generate",
+		"prisma:push": "bun loadEnv -- prisma db push --skip-generate",
+		"prisma:migrate": "bun loadEnv -- prisma migrate dev",
+		"prisma:seed": "bun loadEnv -- prisma db seed",
+		"loadEnv": "bun ../../../loadEnv.ts"
+	},
+	"prisma": {
+		"seed": "bun loadEnv -- bun prisma/seed.ts"
+	},
+	"dependencies": {
+		"@prisma/client": "5.15.0",
+		"prisma": "5.15.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.0.4"
+	}
+}

@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider      = "prisma-client-js"
+    output        = "../../../../node_modules/@prisma/scraperClient"
+    binaryTargets = ["native", "debian-openssl-1.1.x"]
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("POSTGRES_PRISMA_URL_SCRAPER") // uses connection pooling
+}
+
+model Request {
+    id             String   @id @unique @default(uuid())
+    internalId     String
+    promptVersion  String
+    url            String
+    returnEndpoint String
+    promptEndpoint String
+    prompt         String?
+    zod            Json?
+    batchId        String?
+    createdAt      DateTime @default(now())
+    updatedAt      DateTime @updatedAt
+    htmlId         String?  @unique
+    Html           Html?    @relation(fields: [htmlId], references: [id])
+}
+
+model Html {
+    id                 String   @id @unique @default(uuid())
+    html               String
+    createdAt          DateTime @default(now())
+    updatedAt          DateTime @updatedAt
+    urlScrapeRequestId String   @unique
+    UrlScrapeRequest   Request?
+}

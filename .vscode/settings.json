@@ -1,0 +1,30 @@
+{
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonl]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}

@@ -1,0 +1,331 @@
+{
+	"meta": {
+		"title": "ngtly - Nachtleben in meiner Nähe",
+		"description": "ngtly ist eine App für Nachtleben-Events, die dir hilft, das Nachtleben in deiner Umgebung zu finden. Entdecke Bars, Clubs und Partys in deiner Nähe."
+	},
+	"home": {
+		"headline": "Finde das Nachtleben in deiner Nähe",
+		"intro": {
+			"paragraph1": "Alle Nachtleben-Events weltweit werden hier aufgelistet. Ob du nach Nachtleben in deiner Nähe suchst oder einen Abend am Wochenende planst, ngtly hält dich auf dem Laufenden.",
+			"paragraph2": ""
+		},
+		"countriesTitle": "Wähle ein Land"
+	},
+	"country": {
+		"headline": "Finde das Nachtleben in",
+		"description": "Entdecke die besten Nachtleben-Events, Clubs und Bars in %{country}. Bleibe mit Echtzeit-Eventinformationen und kuratierten Empfehlungen für einen unvergesslichen Abend stets informiert.",
+		"cities": "Städte erkunden"
+	},
+	"navigation": {
+		"navItemsLeft": {
+			"cities": "Städte",
+			"clubs": "Clubs",
+			"about": "Über uns",
+			"info": "Eigentümer & Veranstalter",
+			"blog": "Blog"
+		},
+		"navItemsRight": {
+			"addEvent": "Event hinzufügen",
+			"buyMeACoffee": "Spendiere mir einen Kaffee"
+		},
+		"menu": {
+			"openMenu": "Menü öffnen",
+			"closeMenu": "Schließen",
+			"title": "Menü",
+			"chooseCity": "Wähle eine Stadt"
+		},
+		"footer": {
+			"close": "Schließen"
+		}
+	},
+	"footer": {
+		"services": {
+			"title": "Dienstleistungen",
+			"items": {
+				"branding": "Markenauftritt",
+				"marketing": "Marketing"
+			}
+		},
+		"company": {
+			"title": "Unternehmen",
+			"about": "Über uns",
+			"contact": "Kontakt"
+		},
+		"social": {
+			"title": "Folge uns",
+			"items": {
+				"twitter": {
+					"label": "Twitter",
+					"ariaLabel": "Folge uns auf Twitter"
+				}
+			}
+		},
+		"legal": {
+			"items": {
+				"termsOfService": "Nutzungsbedingungen",
+				"privacyPolicy": "Datenschutzerklärung",
+				"cookiePolicy": "Cookie-Richtlinie"
+			}
+		},
+		"download": {
+			"appStore": {
+				"alt": "Aus dem App Store herunterladen",
+				"img": "/img/vendor/app-store.svg"
+			},
+			"playStore": {
+				"alt": "Aus dem Play Store herunterladen",
+				"img": "/img/vendor/play-store.png"
+			}
+		},
+		"copyright": {
+			"text": "2020-{year} ngtly, Alle Rechte vorbehalten."
+		}
+	},
+	"tos": {
+		"title": "Nutzungsbedingungen",
+		"welcome": "Willkommen bei ngtly. Durch die Nutzung unserer Website und Dienstleistungen erklärst du dich mit den folgenden Nutzungsbedingungen einverstanden. Bitte lies diese Bedingungen sorgfältig durch. Solltest du mit einem Teil dieser Bedingungen nicht einverstanden sein, darfst du unsere Website und Dienstleistungen nicht nutzen.",
+		"use_of_services": {
+			"title": "Nutzung der Dienstleistungen",
+			"content": "ngtly bietet eine Plattform zur Suche und Bewerbung von Party- und Club-Events. Du verpflichtest dich, unsere Dienstleistungen nur für legale Zwecke und in Übereinstimmung mit allen geltenden Gesetzen und Vorschriften zu nutzen. Es ist dir untersagt, unsere Dienstleistungen zu nutzen, um schädliche oder illegale Inhalte zu übermitteln oder andere zu belästigen, zu missbrauchen oder zu schädigen."
+		},
+		"account_registration": {
+			"title": "Kontoerstellung",
+			"content": "Um bestimmte Funktionen von ngtly nutzen zu können, ist möglicherweise eine Kontoerstellung erforderlich. Du verpflichtest dich, während des Registrierungsprozesses genaue, aktuelle und vollständige Informationen anzugeben und diese bei Bedarf zu aktualisieren. Du bist verantwortlich für den Schutz deiner Kontodaten und für alle Aktivitäten, die unter deinem Konto durchgeführt werden."
+		},
+		"user_content": {
+			"title": "Nutzerinhalte",
+			"content": "Du behältst das Eigentum an allen Inhalten, die du über ngtly einreichst, postest oder anzeigst. Durch das Einreichen von Inhalten gewährst du ngtly eine weltweite, nicht-exklusive, lizenzgebührenfreie Lizenz zur Nutzung, Vervielfältigung, Modifikation, Verbreitung und Anzeige dieser Inhalte im Zusammenhang mit der Bereitstellung unserer Dienstleistungen. Du versicherst, dass du das Recht hast, diese Lizenz zu gewähren und dass deine Inhalte keine Rechte Dritter verletzen."
+		},
+		"prohibited_activities": {
+			"title": "Verbotene Aktivitäten",
+			"content": "Du verpflichtest dich, keine der folgenden verbotenen Aktivitäten auszuführen:",
+			"list": [
+				"Unsere Dienstleistungen für illegale Zwecke oder in Verletzung lokaler, staatlicher, nationaler oder internationaler Gesetze zu nutzen.",
+				"Verleumderische, obszöne oder schädliche Inhalte zu posten, hochzuladen oder zu verbreiten.",
+				"Versuche, die Integrität oder Sicherheit unserer Dienstleistungen zu beeinträchtigen oder zu kompromittieren.",
+				"Konten automatisiert oder unter falschen Angaben zu erstellen.",
+				"Sich an Aktivitäten zu beteiligen, die die Leistung unserer Dienstleistungen stören oder beeinträchtigen."
+			]
+		},
+		"termination": {
+			"title": "Beendigung",
+			"content": "Wir behalten uns das Recht vor, deinen Zugang zu ngtly jederzeit ohne vorherige Ankündigung oder Haftung aus beliebigem Grund zu sperren oder zu beenden, insbesondere wenn du gegen diese Nutzungsbedingungen verstößt. Nach der Beendigung bleiben alle Bestimmungen, die naturgemäß überdauern sollten – einschließlich Eigentumsrechte, Haftungsausschlüsse, Schadloshaltungsvereinbarungen und Haftungsbeschränkungen – weiterhin gültig."
+		},
+		"disclaimer_of_warranties": {
+			"title": "Haftungsausschluss",
+			"content": "ngtly wird ohne Mängelgewähr und ohne Zusicherungen jeglicher Art bereitgestellt. Wir übernehmen keine ausdrücklichen oder stillschweigenden Garantien bezüglich des Betriebs unserer Dienstleistungen oder der auf unserer Seite enthaltenen Informationen, Inhalte, Materialien oder Produkte. Soweit gesetzlich zulässig, schließen wir alle Garantien, ausdrücklich oder stillschweigend, einschließlich stillschweigender Garantien der Marktgängigkeit und Eignung für einen bestimmten Zweck, aus."
+		},
+		"limitation_of_liability": {
+			"title": "Haftungsbeschränkung",
+			"content": "Unter keinen Umständen haften ngtly, seine Direktoren, Mitarbeiter oder Vertreter für indirekte, beiläufige, besondere, Folgeschäden oder Strafschäden, einschließlich – aber nicht beschränkt auf – entgangenen Gewinn, Datenverlust, Nutzungsausfall, Rufschädigung oder sonstige immaterielle Verluste, die entstehen durch:",
+			"list": [
+				"Die Nutzung oder Unmöglichkeit der Nutzung unserer Dienstleistungen.",
+				"Unbefugten Zugriff auf oder die Nutzung unserer Server und/oder jeglicher dort gespeicherten persönlichen Informationen.",
+				"Jegliche Unterbrechung oder Einstellung der Übertragung zu oder von unseren Dienstleistungen.",
+				"Jegliche Fehler, Viren, Trojaner oder Ähnliches, die durch Dritte über unsere Dienstleistungen übertragen werden können.",
+				"Jegliche Fehler oder Auslassungen in Inhalten oder jeglicher Verlust oder Schaden, der durch die Nutzung von Inhalten entsteht, die über unsere Dienstleistungen gepostet, per E-Mail versendet, übertragen oder anderweitig verfügbar gemacht wurden."
+			]
+		},
+		"indemnification": {
+			"title": "Schadloshaltung",
+			"content": "Du verpflichtest dich, ngtly, dessen verbundene Unternehmen sowie deren jeweilige Direktoren, Mitarbeiter und Vertreter von allen Ansprüchen, Verbindlichkeiten, Schäden, Verlusten und Aufwendungen schadlos zu halten, einschließlich angemessener Rechts- und Buchhaltungsgebühren, die aus oder in Zusammenhang mit deinem Zugang zu oder der Nutzung unserer Dienstleistungen oder deinem Verstoß gegen diese Nutzungsbedingungen entstehen."
+		},
+		"governing_law": {
+			"title": "Anwendbares Recht",
+			"content": "Diese Nutzungsbedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der ngtly tätig ist, und werden in Übereinstimmung mit diesen ausgelegt, ungeachtet ihrer kollisionsrechtlichen Bestimmungen. Du erklärst dich damit einverstanden, der persönlichen und ausschließlichen Gerichtsbarkeit der Gerichte in dieser Gerichtsbarkeit zu unterwerfen."
+		},
+		"changes_to_terms": {
+			"title": "Änderungen dieser Bedingungen",
+			"content": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern oder zu ersetzen. Bei wesentlichen Änderungen werden wir mindestens 30 Tage im Voraus darüber informieren, bevor die neuen Bedingungen in Kraft treten. Was eine wesentliche Änderung darstellt, wird nach unserem alleinigen Ermessen festgelegt. Indem du weiterhin auf unsere Dienstleistungen zugreifst oder diese nutzt, nachdem die Änderungen wirksam geworden sind, stimmst du den geänderten Bedingungen zu."
+		},
+		"contact_information": {
+			"title": "Kontaktinformationen",
+			"content": "Wenn du Fragen zu diesen Nutzungsbedingungen hast, kontaktiere uns bitte unter ",
+			"contact_link": "X",
+			"or_via_contact_page": " oder über unsere Kontaktseite. Wir verpflichten uns, deine Fragen und Anliegen umgehend und transparent zu beantworten."
+		}
+	},
+	"privacy": {
+		"title": "Datenschutzerklärung",
+		"heading": "Datenschutz",
+		"introduction": "Bei ngtly nehmen wir deinen Datenschutz ernst und verpflichten uns, deine persönlichen Daten zu schützen. Diese Datenschutzerklärung erläutert, wie wir mit deinen Informationen umgehen, um Transparenz und Sicherheit in unseren Datenpraktiken zu gewährleisten.",
+		"sections": {
+			"data_collection": {
+				"title": "Datenerhebung",
+				"content": "ngtly sammelt keine persönlichen Daten seiner Nutzer. Es werden lediglich anonyme Website-Tracking-Daten erhoben, um die Benutzererfahrung zu verbessern und einen reibungslosen Betrieb des Dienstes zu gewährleisten. Diese Tracking-Daten enthalten keine persönlich identifizierbaren Informationen. Wir erheben keine Namen, Adressen, Telefonnummern, E-Mail-Adressen oder sonstige persönliche Details."
+			},
+			"usage_of_data": {
+				"title": "Verwendung der Daten",
+				"content": "Die erhobenen anonymen Website-Tracking-Daten werden ausschließlich zur Analyse des Website-Traffics und der Performance verwendet. Diese Informationen helfen uns zu verstehen, wie Nutzer mit der Seite interagieren, welche Bereiche am beliebtesten sind und wo Verbesserungen möglich sind. Unter keinen Umständen werden diese Daten an Dritte weitergegeben, verkauft oder zu Werbezwecken genutzt."
+			},
+			"cookies": {
+				"title": "Cookies",
+				"content": "ngtly verwendet Cookies, um dein Surferlebnis zu verbessern. Cookies sind kleine Textdateien, die auf deinem Gerät gespeichert werden und uns helfen, deine Präferenzen zu merken und zu verstehen, wie du unsere Seite nutzt. Die von uns verwendeten Cookies enthalten keine persönlichen Informationen und werden nicht zur Nachverfolgung deiner Aktivitäten außerhalb von ngtly verwendet. Du kannst Cookies über deine Browsereinstellungen deaktivieren, allerdings kann dies die Funktionalität unserer Website beeinträchtigen."
+			},
+			"third_party_services": {
+				"title": "Drittanbieterdienste",
+				"content": "Wir können Drittanbieterdienste einsetzen, um den Betrieb unserer Website zu unterstützen und Daten zu analysieren. Diese Dienste können Zugang zu anonymen Tracking-Daten erhalten, sind jedoch durch Geheimhaltungsvereinbarungen gebunden und dürfen die Daten nicht für andere Zwecke verwenden. Wir stellen sicher, dass alle von uns eingesetzten Drittanbieterdienste strenge Datenschutzstandards einhalten."
+			},
+			"data_security": {
+				"title": "Datensicherheit",
+				"content": "Wir implementieren robuste Sicherheitsmaßnahmen, um die erhobenen Daten zu schützen. Dazu gehören Verschlüsselung, sichere Server und regelmäßige Sicherheitsüberprüfungen, um unbefugten Zugriff, Datenlecks und andere Sicherheitsbedrohungen zu verhindern. Obwohl wir uns bemühen, deine Daten zu schützen, kann kein System vollkommen sicher sein, und wir können die absolute Sicherheit unserer Systeme nicht garantieren."
+			},
+			"your_rights": {
+				"title": "Deine Rechte",
+				"content": "Du hast das Recht, auf die von uns erhobenen Daten zuzugreifen und deren Löschung jederzeit zu verlangen. Da wir nur anonyme Daten sammeln, gibt es keine persönlichen Informationen, auf die du zugreifen oder die du löschen könntest. Solltest du Fragen oder Bedenken bezüglich unserer Datenschutzpraktiken haben, kontaktiere uns bitte. Du hast außerdem das Recht, bei einer Aufsichtsbehörde Beschwerde einzureichen, wenn du der Meinung bist, dass deine Datenschutzrechte verletzt wurden."
+			},
+			"childrens_privacy": {
+				"title": "Kinderschutz",
+				"content": "ngtly ist nicht für die Nutzung durch Kinder unter 13 Jahren bestimmt. Wir erheben wissentlich keine persönlichen Daten von Kindern. Sollte uns bekannt werden, dass ein Kind unter 13 Jahren persönliche Informationen bereitgestellt hat, werden wir diese umgehend löschen."
+			},
+			"international_data_transfers": {
+				"title": "Internationale Datenübertragungen",
+				"content": "ngtly ist weltweit tätig, und deine Daten können in Länder außerhalb deines eigenen übertragen und dort verarbeitet werden. Diese Länder können andere Datenschutzgesetze haben, aber wir ergreifen Maßnahmen, um sicherzustellen, dass deine Datenschutzrechte gemäß dieser Datenschutzerklärung geschützt sind."
+			},
+			"changes_to_policy": {
+				"title": "Änderungen dieser Richtlinie",
+				"content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen in unseren Praktiken oder gesetzlichen Anforderungen Rechnung zu tragen. Wir werden dich über wesentliche Änderungen informieren, indem wir einen Hinweis auf unserer Website veröffentlichen. Wir empfehlen dir, diese Richtlinie regelmäßig zu überprüfen, um informiert zu bleiben, wie wir deine Daten schützen."
+			}
+		},
+		"contact_information": {
+			"title": "Kontaktinformationen",
+			"content": "Bei Fragen zu dieser Datenschutzerklärung oder deinem Datenschutz wende dich bitte an uns unter ",
+			"contact_link": "X",
+			"or_via_contact_page": " oder über unsere Kontaktseite. Wir verpflichten uns, deine Fragen und Anliegen umgehend und transparent zu beantworten."
+		}
+	},
+	"cookie_policy": {
+		"title": "Cookie-Richtlinie",
+		"heading": "Cookie-Richtlinie",
+		"introduction": "Bei ngtly verwenden wir Cookies, um dein Surferlebnis zu verbessern und um zu verstehen, wie du unsere Seite nutzt. Diese Cookie-Richtlinie erklärt, was Cookies sind, wie wir sie verwenden und welche Wahlmöglichkeiten du hast.",
+		"what_are_cookies": {
+			"title": "Was sind Cookies?",
+			"content": "Cookies sind kleine Textdateien, die von besuchten Websites auf deinem Gerät gespeichert werden. Sie werden häufig verwendet, um Websites effizienter arbeiten zu lassen und um den Seitenbetreibern Informationen bereitzustellen. Cookies können \"Session-Cookies\" sein, die beim Schließen des Browsers gelöscht werden, oder \"Persistent Cookies\", die für einen festgelegten Zeitraum auf deinem Gerät verbleiben oder bis du sie löschst."
+		},
+		"how_we_use_cookies": {
+			"title": "Wie wir Cookies verwenden",
+			"introduction": "ngtly verwendet Cookies für verschiedene Zwecke:",
+			"essential": {
+				"title": "Notwendige Cookies:",
+				"content": "Diese Cookies sind notwendig, damit die Website ordnungsgemäß funktioniert. Sie ermöglichen dir die Navigation auf der Seite und die Nutzung ihrer Funktionen, wie den Zugriff auf sichere Bereiche."
+			},
+			"performance": {
+				"title": "Leistungs-Cookies:",
+				"content": "Diese Cookies sammeln Informationen darüber, wie Besucher unsere Seite nutzen, zum Beispiel welche Seiten am häufigsten besucht werden. Diese Informationen werden genutzt, um die Website zu verbessern und ein besseres Nutzererlebnis zu bieten. Die von diesen Cookies gesammelten Daten werden aggregiert und anonymisiert."
+			},
+			"functional": {
+				"title": "Funktionale Cookies:",
+				"content": "Diese Cookies ermöglichen es der Website, sich an deine getroffenen Einstellungen zu erinnern, wie beispielsweise deine Sprachpräferenzen, und bieten verbesserte, personalisierte Funktionen."
+			}
+		},
+		"third_party_cookies": {
+			"title": "Cookies von Drittanbietern",
+			"content": "Wir können Drittanbieterdienste wie Analyseanbieter einsetzen, die ebenfalls Cookies auf unserer Seite setzen. Diese Drittanbieter-Cookies werden genutzt, um Informationen darüber zu sammeln, wie du mit unserer Seite interagierst, was uns hilft, Nutzungsmuster zu verstehen und unsere Dienstleistungen zu verbessern. Wir stellen sicher, dass diese Drittanbieter strenge Datenschutzstandards einhalten."
+		},
+		"your_choices": {
+			"title": "Deine Wahlmöglichkeiten bezüglich Cookies",
+			"introduction": "Du hast verschiedene Optionen, um die Verwendung von Cookies auf unserer Seite zu steuern:",
+			"browser_settings": {
+				"title": "Browser-Einstellungen:",
+				"content": "Die meisten Webbrowser ermöglichen es dir, deine Cookie-Einstellungen über deren Einstellungen zu verwalten. Du kannst wählen, Cookies zu blockieren oder zu löschen, beachte jedoch, dass dies die Funktionalität unserer Seite beeinträchtigen kann."
+			},
+			"opt_out_tools": {
+				"title": "Opt-Out-Tools:",
+				"content": "Einige Drittanbieterdienste, die wir nutzen, bieten Opt-Out-Tools an, mit denen du verhindern kannst, dass sie Daten über Cookies sammeln. Weitere Informationen findest du in den Datenschutzerklärungen dieser Drittanbieter."
+			}
+		},
+		"changes": {
+			"title": "Änderungen dieser Cookie-Richtlinie",
+			"content": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren, um Änderungen in unseren Praktiken oder aus betrieblichen, rechtlichen oder regulatorischen Gründen widerzuspiegeln. Wir werden dich über wesentliche Änderungen informieren, indem wir einen Hinweis auf unserer Website veröffentlichen. Wir empfehlen dir, diese Richtlinie regelmäßig zu überprüfen, um informiert zu bleiben, wie wir Cookies verwenden."
+		},
+		"contact": {
+			"title": "Kontaktinformationen",
+			"content": "Wenn du Fragen zu dieser Cookie-Richtlinie oder unserer Verwendung von Cookies hast, kontaktiere uns unter",
+			"x_link": "X"
+		}
+	},
+	"contact": {
+		"title": "Kontakt",
+		"heading": "Kontakt",
+		"introduction": "Wir freuen uns, von dir zu hören! Ob du Fragen zu unseren Dienstleistungen hast, Unterstützung benötigst oder mehr darüber erfahren möchtest, wie ngtly dein Nachtleben-Event bewerben kann – unser Team steht dir zur Verfügung.",
+		"how_to_reach": {
+			"title": "So erreichst du uns",
+			"email": {
+				"title": "E-Mail:",
+				"content": "Du kannst uns per E-Mail unter <a href='mailto:information.nightly@gmail.com' class='underline text-accent'>information.nightly@gmail.com</a> erreichen. Wir bemühen uns, alle Anfragen innerhalb von 48 Stunden zu beantworten."
+			}
+		},
+		"connect_with_us": {
+			"title": "Verbinde dich mit uns in den sozialen Medien",
+			"introduction": "Folge uns in den sozialen Medien, um über die neuesten Nachtleben-Events, Aktionen und Neuigkeiten von ngtly auf dem Laufenden zu bleiben. Wir sind aktiv auf:"
+		}
+	},
+	"add_event": {
+		"title": "Event-Details",
+		"description": "Gib die Details für dein neues Event ein",
+		"form": {
+			"event_name": {
+				"label": "Event-Name",
+				"placeholder": "Sommernachtsparty"
+			},
+			"event_date": {
+				"label": "Event-Datum"
+			},
+			"entry_price": {
+				"label": "Eintrittspreis (in lokaler Währung)",
+				"placeholder": "20"
+			},
+			"club_name": {
+				"label": "Club-Name",
+				"placeholder": "Club XYZ"
+			},
+			"music_types": {
+				"label": "Musikrichtungen",
+				"placeholder": "House, Techno, Disco",
+				"help_text": "Mehrere Musikrichtungen durch Kommas trennen"
+			},
+			"description": {
+				"label": "Beschreibung",
+				"placeholder": "Eine kurze Beschreibung deines Events..."
+			},
+			"submit": {
+				"creating": "Erstelle...",
+				"create": "Event erstellen"
+			},
+			"errors": {
+				"failed": "Erstellen des Events fehlgeschlagen",
+				"generic": "Ein Fehler ist aufgetreten"
+			}
+		}
+	},
+	"city": {
+		"headline": "Entdecke das Nachtleben in %{city}",
+		"description": "Finde die besten Clubs, Partys und Events in %{city}, %{country}. Dein Guide zum heutigen Abendprogramm und zu kommenden Events.",
+		"notFound": "Entschuldigung, wir konnten keine Informationen über %{city} finden",
+		"todayEvents": "Events von heute",
+		"promotedEvents": "Empfohlene Events",
+		"venues": "Beliebte Locations",
+		"eventCount": "bevorstehende Events",
+		"upcomingEvents": "Bevorstehende Events"
+	},
+	"noEvents": "Derzeit keine Events für %{city}",
+	"page": {
+		"title": "Nachtleben in %{city}, %{country}",
+		"description": "Alle Events in %{city} werden hier aufgelistet. Entdecke die besten Clubs, Bars und Events in %{city}. Ob du nach Nachtleben in deiner Nähe suchst oder einen Abend am Wochenende planst, ngtly hält dich auf dem Laufenden."
+	},
+	"jsonLd": {
+		"name": "Nachtleben in %{city}, %{country} am %{date}",
+		"description": "Entdecke die besten Nachtleben-Events in %{city} am %{date}.",
+		"noDescription": "Keine Beschreibung verfügbar.",
+		"unknownClub": "Unbekannter Club",
+		"variousArtists": "Verschiedene Künstler"
+	},
+	"faq": {
+		"bestClubsQuestion": "Wo finde ich die besten Clubs in meiner Nähe?",
+		"bestClubsAnswer": "Unsere Plattform listet die Top-Clubs in deiner Umgebung basierend auf Nutzerbewertungen und Empfehlungen auf.",
+		"localPartiesQuestion": "Wo finde ich lokale Partys in meiner Nähe?",
+		"localPartiesAnswer": "Finde lokale Partys, die deinem Geschmack entsprechen, mithilfe unserer erweiterten Suchfilter und kuratierten Vorschläge.",
+		"nightlifeEventsQuestion": "Wie entdecke ich Nachtleben-Events in meiner Nähe?",
+		"nightlifeEventsAnswer": "Nutze unsere Suchfunktion und personalisierte Empfehlungen, um die neuesten Nachtleben-Events und exklusiven Angebote in deiner Region zu finden."
+	}
+}

@@ -1,0 +1,55 @@
+{
+  "name": "my-monorepo",
+  "module": "commonjs",
+  "type": "module",
+  "private": true,
+  "trustedDependencies": [
+    "@ngtly/db",
+    "@prisma/client",
+    "@prisma/engines",
+    "prisma",
+    "@scraper/dbscraper",
+    "@biomejs/biome",
+    "puppeteer",
+    "@shared"
+  ],
+  "scripts": {
+    "clean": "find . -name \"node_modules\" -type d -exec rm -rf {} + && find . -name \".turbo\" -type d -exec rm -rf {} + && find . -name \"bun.lockb\" -type f -exec rm -f {} + && find . -name \"bun_modules\" -type d -exec rm -rf {} + && find . -name \"cache\" -type d -exec rm -rf {} + && find . -name \"generated\" -type d -exec rm -rf {} +",
+    "consume:image": "cd packages/scraper && bun run consume:image",
+    "consume:html": "cd packages/scraper && bun run consume:html",
+    "consume:scraper": "cd packages/scraper && bun run consume:scraper",
+    "consume:request": "cd packages/scraper && bun run consume:request",
+    "ngtly:generate": "cd packages/ngtly/db && bun run prisma:generate",
+    "ngtly:push": "cd packages/ngtly/db && bun run prisma:push",
+    "ngtly:migrate": "cd packages/ngtly/db && bun prisma:migrate",
+    "ngtly:seed": "cd packages/ngtly/db && bun run prisma:seed",
+    "scraper:build": "cd packages/scraper && bun run build",
+    "scraper:start": "cd packages/scraper && bun run start:build",
+    "scraper:generate": "cd packages/scraper/dbScraper && bun run prisma:generate",
+    "scraper:push": "cd packages/scraper/dbScraper && bun run prisma:push",
+    "scraper:migrate": "cd packages/scraper/dbScraper && bun prisma:migrate",
+    "ngtly:dev": "cd packages/ngtly && bun run dev",
+    "ngtly:build": "cd packages/ngtly && bun run build",
+    "ngtly:start": "cd packages/ngtly && bun run start",
+    "lint": "bunx @biomejs/biome check --apply packages/ && bun run ngtly:build",
+    "lint:unsafe": "bunx @biomejs/biome check --apply-unsafe packages/ && bun run ngtly:build",
+    "check": "bunx @biomejs/biome check --write packages/",
+    "prepare": "husky"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/**/db",
+    "packages/**/dbscraper"
+  ],
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.10.1",
+    "dotenv": "^16.4.5",
+    "lucide-react": "^0.395.0",
+    "openai": "^4.56.0",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "husky": "^9.0.11"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"name": "event-scraper",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"repository": "git@github.com:simonorzel26/event-scraper.git",
+	"author": "Simon Orzel <simonorzel@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"scrape": "bun loadEnv -- bun index.ts",
+		"build": "bun build ./requestConsumer.ts ./scrapingConsumer.ts ./htmlConsumer.ts --outdir ./generated --target node",
+		"start:build": "bun loadEnv -- bun ./generated/requestConsumer.js && bun ./generated/scrapingConsumer.js",
+		"consume:image": "bun loadEnv -- bun imageconsumer.ts",
+		"consume:html": "bun loadEnv -- bun htmlConsumer.ts",
+		"consume:scraper": "bun loadEnv -- bun scrapingConsumer.ts",
+		"consume:request": "bun loadEnv -- bun requestConsumer.ts",
+		"loadEnv": "bun ../../loadEnv.ts"
+	},
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.609.0",
+		"@aws-sdk/lib-storage": "^3.609.0",
+		"@scraper/dbscraper": "workspace:*",
+		"@shared": "workspace:*",
+		"amqplib": "^0.10.4",
+		"cheerio": "1.0.0",
+		"gpt-tokenizer": "^2.5.0",
+		"html-to-text": "^9.0.5",
+		"node-fetch": "^3.3.2",
+		"openai": "^4.51.0",
+		"openai-gpt-token-counter": "^1.1.1",
+		"puppeteer": "^22.11.1",
+		"puppeteer-cluster": "^0.24.0",
+		"ts-node": "^10.9.2",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"prisma": "5.15.0"
+	}
+}

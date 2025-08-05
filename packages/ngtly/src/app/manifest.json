@@ -1,0 +1,16 @@
+{
+	"name": "ngtly",
+	"short_name": "ngtly",
+	"icons": [
+		{
+			"src": "/logo-ngtly_1024.png",
+			"sizes": "1024x1024",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#1e1e1e",
+	"background_color": "#1e1e1e",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait"
+}

@@ -1,0 +1,64 @@
+FROM imbios/bun-node:20-slim AS runner
+ARG DEBIAN_FRONTEND=noninteractive
+
+# Install necessary dependencies
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+    openssl \
+    git \
+    ca-certificates \
+    tzdata && \
+    ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime && \
+    echo "Europe/Berlin" > /etc/timezone && \
+    dpkg-reconfigure -f noninteractive tzdata && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy necessary files
+COPY package.json bun.lockb ./
+RUN mkdir -p packages/scraper
+RUN mkdir -p packages/shared
+COPY ./packages/scraper/package.json ./packages/scraper/package.json
+COPY ./packages/shared/package.json ./packages/shared/package.json
+COPY ./loadEnv.ts ./loadEnv.ts
+COPY ./env.js ./env.js
+COPY ./packages/scraper/dbscraper/ ./packages/scraper/dbscraper/
+
+COPY ./.env ./.env
+RUN bun install 
+
+# Create a system group and user for running the application
+RUN addgroup --system --gid 1002 bunjs
+RUN adduser --system --uid 1002 --ingroup bunjs bunuser
+
+# Set environment variables
+ARG CONFIG_FILE=.env
+COPY $CONFIG_FILE ./.env
+ENV NODE_ENV production
+# Uncomment the following line in case you want to disable telemetry during runtime.
+# ENV NEXT_TELEMETRY_DISABLED 1
+
+# Copy necessary files and set correct permissions
+COPY ./packages/scraper/ ./packages/scraper/
+COPY ./packages/shared/ ./packages/shared/
+
+# Change ownership of all necessary files and directories to the non-root user
+RUN chown -R bunuser:bunjs /app
+
+# Switch to the non-root user
+USER bunuser
+
+# Expose the application port
+EXPOSE 3006
+
+# Set additional environment variables
+ENV PORT 3006
+ENV HOSTNAME "0.0.0.0"
+
+# Mount a volume for temporary files
+VOLUME ["/tmp"]
+
+# Run the application
+CMD ["bun", "packages/scraper/htmlConsumer.ts"]

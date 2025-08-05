@@ -1,0 +1,331 @@
+{
+	"meta": {
+		"title": "ngtly - Nightlife Near Me",
+		"description": "ngtly is a nightlife event app that helps you find nightlife in your area. Discover bars, clubs, and parties near you."
+	},
+	"home": {
+		"headline": "Find Nightlife Near You",
+		"intro": {
+			"paragraph1": "All nightlife events across the world are listed here. Whether you're searching for nightlife near me or planning a night out this weekend, ngtly keeps you in the loop.",
+			"paragraph2": ""
+		},
+		"countriesTitle": "Select a Country"
+	},
+	"country": {
+		"headline": "Find Nightlife in",
+		"description": "Discover the best nightlife events, clubs, and bars in %{country}. Stay updated with real-time event information and curated recommendations for an unforgettable night out.",
+		"cities": "Explore Cities"
+	},
+	"navigation": {
+		"navItemsLeft": {
+			"cities": "Cities",
+			"clubs": "Clubs",
+			"about": "About",
+			"info": "Owners & Promoters",
+			"blog": "Blog"
+		},
+		"navItemsRight": {
+			"addEvent": "Add Event",
+			"buyMeACoffee": "Buy Me a Coffee"
+		},
+		"menu": {
+			"openMenu": "Open Menu",
+			"closeMenu": "Close",
+			"title": "Menu",
+			"chooseCity": "Choose a city"
+		},
+		"footer": {
+			"close": "Close"
+		}
+	},
+	"footer": {
+		"services": {
+			"title": "Services",
+			"items": {
+				"branding": "Branding",
+				"marketing": "Marketing"
+			}
+		},
+		"company": {
+			"title": "Company",
+			"about": "About us",
+			"contact": "Contact"
+		},
+		"social": {
+			"title": "Follow us",
+			"items": {
+				"twitter": {
+					"label": "Twitter",
+					"ariaLabel": "Follow us on Twitter"
+				}
+			}
+		},
+		"legal": {
+			"items": {
+				"termsOfService": "Terms of Service",
+				"privacyPolicy": "Privacy Policy",
+				"cookiePolicy": "Cookie Policy"
+			}
+		},
+		"download": {
+			"appStore": {
+				"alt": "Download from App Store",
+				"img": "/img/vendor/app-store.svg"
+			},
+			"playStore": {
+				"alt": "Download from Play Store",
+				"img": "/img/vendor/play-store.png"
+			}
+		},
+		"copyright": {
+			"text": "2020-{year} ngtly, All rights reserved."
+		}
+	},
+	"tos": {
+		"title": "Terms of Service",
+		"welcome": "Welcome to ngtly. By using our website and services, you agree to comply with and be bound by the following Terms of Service. Please review these terms carefully. If you do not agree with any part of these terms, you must not use our website or services.",
+		"use_of_services": {
+			"title": "Use of Services",
+			"content": "ngtly provides a platform for finding and promoting party and club events. You agree to use our services only for lawful purposes and in a manner consistent with all applicable laws and regulations. You must not use our services to transmit any harmful or illegal content, or to harass, abuse, or harm others."
+		},
+		"account_registration": {
+			"title": "Account Registration",
+			"content": "To access certain features of ngtly, you may be required to register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete. You are responsible for safeguarding your account credentials and for any activities or actions under your account."
+		},
+		"user_content": {
+			"title": "User Content",
+			"content": "You retain ownership of any content you submit, post, or display on or through ngtly. By submitting content, you grant ngtly a worldwide, non-exclusive, royalty-free license to use, copy, modify, distribute, and display such content in connection with providing our services. You represent and warrant that you have the right to grant this license and that your content does not violate any third-party rights."
+		},
+		"prohibited_activities": {
+			"title": "Prohibited Activities",
+			"content": "You agree not to engage in any of the following prohibited activities:",
+			"list": [
+				"Using our services for any illegal purpose or in violation of any local, state, national, or international law.",
+				"Posting, uploading, or distributing any defamatory, obscene, or harmful content.",
+				"Attempting to interfere with or compromise the integrity or security of our services.",
+				"Creating accounts by automated means or under false pretenses.",
+				"Engaging in any activity that disrupts or interferes with the performance of our services."
+			]
+		},
+		"termination": {
+			"title": "Termination",
+			"content": "We reserve the right to suspend or terminate your access to ngtly at any time, without prior notice or liability, for any reason, including if you breach these Terms of Service. Upon termination, all provisions of these terms that by their nature should survive termination will survive, including ownership provisions, warranty disclaimers, indemnity, and limitations of liability."
+		},
+		"disclaimer_of_warranties": {
+			"title": "Disclaimer of Warranties",
+			"content": "ngtly is provided on an 'as is' and 'as available' basis. We make no warranties, express or implied, regarding the operation of our services or the information, content, materials, or products included on our site. To the fullest extent permitted by law, we disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose."
+		},
+		"limitation_of_liability": {
+			"title": "Limitation of Liability",
+			"content": "In no event shall ngtly, its directors, employees, or agents, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:",
+			"list": [
+				"Your use or inability to use our services.",
+				"Any unauthorized access to or use of our servers and/or any personal information stored therein.",
+				"Any interruption or cessation of transmission to or from our services.",
+				"Any bugs, viruses, trojan horses, or the like that may be transmitted to or through our services by any third party.",
+				"Any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available through our services."
+			]
+		},
+		"indemnification": {
+			"title": "Indemnification",
+			"content": "You agree to indemnify and hold harmless ngtly, its affiliates, and their respective directors, employees, and agents, from and against any claims, liabilities, damages, losses, and expenses, including without limitation reasonable legal and accounting fees, arising out of or in any way connected with your access to or use of our services or your violation of these Terms of Service."
+		},
+		"governing_law": {
+			"title": "Governing Law",
+			"content": "These Terms of Service shall be governed by and construed in accordance with the laws of the jurisdiction in which ngtly operates, without regard to its conflict of law principles. You agree to submit to the personal and exclusive jurisdiction of the courts located within that jurisdiction."
+		},
+		"changes_to_terms": {
+			"title": "Changes to These Terms",
+			"content": "We reserve the right to modify or replace these Terms of Service at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms."
+		},
+		"contact_information": {
+			"title": "Contact Information",
+			"content": "If you have any questions about these Terms of Service, please contact us on ",
+			"contact_link": "X",
+			"or_via_contact_page": " or via our contact page. We are committed to addressing your questions and concerns promptly and transparently."
+		}
+	},
+	"privacy": {
+		"title": "Privacy Policy",
+		"heading": "Datenschutz",
+		"introduction": "At ngtly, we take your privacy seriously and are committed to protecting your personal data. This Datenschutzerklärung (Privacy Policy) outlines how we handle your information, ensuring transparency and security in our data practices.",
+		"sections": {
+			"data_collection": {
+				"title": "Data Collection",
+				"content": "ngtly does not collect personal data from its users. The only data collected is anonymous site tracking to help improve the user experience and ensure the service runs smoothly. This tracking data does not contain any personally identifiable information. We do not collect names, addresses, phone numbers, email addresses, or any other personal details."
+			},
+			"usage_of_data": {
+				"title": "Usage of Data",
+				"content": "The anonymous site tracking data collected is used solely for the purpose of analyzing website traffic and performance. This information helps us understand how users interact with the site, which areas are most popular, and where we can make improvements. Under no circumstances is this data shared with third parties, sold, or used for advertising purposes."
+			},
+			"cookies": {
+				"title": "Cookies",
+				"content": "ngtly uses cookies to enhance your browsing experience. Cookies are small text files stored on your device that help us remember your preferences and understand how you use our site. The cookies we use do not contain any personal information and are not used to track your activities outside of ngtly. You can choose to disable cookies through your browser settings, but this may affect the functionality of our website."
+			},
+			"third_party_services": {
+				"title": "Third-Party Services",
+				"content": "We may use third-party services to assist with the operation of our website and to analyze data. These services may have access to anonymous tracking data but are bound by confidentiality agreements and are prohibited from using the data for any other purpose. We ensure that any third-party services we engage adhere to strict data privacy standards."
+			},
+			"data_security": {
+				"title": "Data Security",
+				"content": "We implement robust security measures to protect the data we collect. This includes encryption, secure servers, and regular security audits to prevent unauthorized access, data breaches, and other security threats. Although we strive to protect your data, no system can be completely secure, and we cannot guarantee the absolute security of our systems."
+			},
+			"your_rights": {
+				"title": "Your Rights",
+				"content": "You have the right to access the data we collect and request its deletion at any time. Since we only collect anonymous data, there is no personal information to access or delete. If you have any questions or concerns about our privacy practices, please contact us. You also have the right to lodge a complaint with a supervisory authority if you believe your data protection rights have been violated."
+			},
+			"childrens_privacy": {
+				"title": "Children's Privacy",
+				"content": "ngtly is not intended for use by children under the age of 13. We do not knowingly collect personal data from children. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information immediately."
+			},
+			"international_data_transfers": {
+				"title": "International Data Transfers",
+				"content": "ngtly operates globally, and your data may be transferred to and processed in countries other than your own. These countries may have different data protection laws, but we take steps to ensure that your privacy rights are protected in accordance with this Datenschutzerklärung."
+			},
+			"changes_to_policy": {
+				"title": "Changes to This Policy",
+				"content": "We may update this Datenschutzerklärung from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting a notice on our website. We encourage you to review this policy periodically to stay informed about how we are protecting your data."
+			}
+		},
+		"contact_information": {
+			"title": "Contact Information",
+			"content": "For any inquiries regarding this Datenschutzerklärung or your data privacy, please reach out to us on ",
+			"contact_link": "X",
+			"or_via_contact_page": " or via our contact page. We are committed to addressing your questions and concerns promptly and transparently."
+		}
+	},
+	"cookie_policy": {
+		"title": "Cookie Policy",
+		"heading": "Cookie Policy",
+		"introduction": "At ngtly, we use cookies to enhance your browsing experience and to help us understand how you use our site. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.",
+		"what_are_cookies": {
+			"title": "What Are Cookies?",
+			"content": "Cookies are small text files that are placed on your device by websites that you visit. They are widely used to make websites work more efficiently, as well as to provide information to the site owners. Cookies can be \"session cookies,\" which are deleted when you close your browser, or \"persistent cookies,\" which remain on your device for a set period of time or until you delete them."
+		},
+		"how_we_use_cookies": {
+			"title": "How We Use Cookies",
+			"introduction": "ngtly uses cookies for several purposes:",
+			"essential": {
+				"title": "Essential Cookies:",
+				"content": "These cookies are necessary for the website to function properly. They enable you to navigate the site and use its features, such as accessing secure areas."
+			},
+			"performance": {
+				"title": "Performance Cookies:",
+				"content": "These cookies collect information about how visitors use our site, such as which pages are visited most often. This information is used to improve the site and provide a better user experience. The data collected by these cookies is aggregated and anonymous."
+			},
+			"functional": {
+				"title": "Functional Cookies:",
+				"content": "These cookies allow the site to remember choices you make, such as your language preferences, and provide enhanced, more personalized features."
+			}
+		},
+		"third_party_cookies": {
+			"title": "Third-Party Cookies",
+			"content": "We may use third-party services, such as analytics providers, that also set cookies on our site. These third-party cookies are used to collect information about how you interact with our site, helping us to understand usage patterns and improve our services. We ensure that these third parties comply with strict data privacy standards."
+		},
+		"your_choices": {
+			"title": "Your Choices Regarding Cookies",
+			"introduction": "You have several options to control the use of cookies on our site:",
+			"browser_settings": {
+				"title": "Browser Settings:",
+				"content": "Most web browsers allow you to manage your cookie preferences through their settings. You can choose to block or delete cookies, but please note that doing so may affect the functionality of our site."
+			},
+			"opt_out_tools": {
+				"title": "Opt-Out Tools:",
+				"content": "Some third-party services we use provide opt-out tools that allow you to prevent them from collecting data through cookies. Refer to the privacy policies of these third parties for more information."
+			}
+		},
+		"changes": {
+			"title": "Changes to This Cookie Policy",
+			"content": "We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any significant changes by posting a notice on our website. We encourage you to review this policy periodically to stay informed about how we use cookies."
+		},
+		"contact": {
+			"title": "Contact Information",
+			"content": "If you have any questions about this Cookie Policy or our use of cookies, please contact us on",
+			"x_link": "X"
+		}
+	},
+	"contact": {
+		"title": "Contact Us",
+		"heading": "Contact Us",
+		"introduction": "We'd love to hear from you! Whether you have questions about our services, need support, or want to learn more about how ngtly can help promote your nightlife events, our team is here to assist.",
+		"how_to_reach": {
+			"title": "How to Reach Us",
+			"email": {
+				"title": "Email:",
+				"content": "You can reach us via email at <a href='mailto:information.nightly@gmail.com' class='underline text-accent'>information.nightly@gmail.com</a>. We strive to respond to all inquiries within 48 hours."
+			}
+		},
+		"connect_with_us": {
+			"title": "Connect with Us on Social Media",
+			"introduction": "Follow us on social media to stay updated on the latest nightlife events, promotions, and ngtly news. We're active on:"
+		}
+	},
+	"add_event": {
+		"title": "Event Details",
+		"description": "Enter the details for your new event",
+		"form": {
+			"event_name": {
+				"label": "Event Name",
+				"placeholder": "Summer Night Party"
+			},
+			"event_date": {
+				"label": "Event Date"
+			},
+			"entry_price": {
+				"label": "Entry Price (in local currency)",
+				"placeholder": "20"
+			},
+			"club_name": {
+				"label": "Club Name",
+				"placeholder": "Club XYZ"
+			},
+			"music_types": {
+				"label": "Music Types",
+				"placeholder": "house, techno, disco",
+				"help_text": "Separate multiple music types with commas"
+			},
+			"description": {
+				"label": "Description",
+				"placeholder": "A brief description of your event..."
+			},
+			"submit": {
+				"creating": "Creating...",
+				"create": "Create Event"
+			},
+			"errors": {
+				"failed": "Failed to create event",
+				"generic": "An error occurred"
+			}
+		}
+	},
+	"city": {
+		"headline": "Discover %{city} Nightlife",
+		"description": "Find the best clubs, parties and events in %{city}, %{country}. Your guide to tonight's entertainment and upcoming events.",
+		"notFound": "Sorry, we couldn't find any information about %{city}",
+		"todayEvents": "Today's Events",
+		"promotedEvents": "Featured Events",
+		"venues": "Popular Venues",
+		"eventCount": "upcoming events",
+		"upcomingEvents": "Upcoming Events"
+	},
+	"noEvents": "Currently no events for %{city}",
+	"page": {
+		"title": "Nightlife in %{city}, %{country}",
+		"description": "All events in %{city} are listed here. Discover the top clubs, bars, and events in %{city}. Whether you're searching for nightlife near me or planning a night out this weekend, ngtly keeps you in the loop."
+	},
+	"jsonLd": {
+		"name": "Nightlife in %{city}, %{country} on %{date}",
+		"description": "Discover the best nightlife events in %{city} on %{date}.",
+		"noDescription": "No description available.",
+		"unknownClub": "Unknown Club",
+		"variousArtists": "Various Artists"
+	},
+	"faq": {
+		"bestClubsQuestion": "Where are the best clubs in my area?",
+		"bestClubsAnswer": "Our platform lists the top clubs in your area based on user reviews and recommendations.",
+		"localPartiesQuestion": "Where can I find local parties near me?",
+		"localPartiesAnswer": "Discover local parties that match your taste using our advanced search filters and curated suggestions.",
+		"nightlifeEventsQuestion": "How do I discover nightlife events near me?",
+		"nightlifeEventsAnswer": "Utilize our search function and personalized recommendations to find the latest nightlife events and exclusive offers in your region."
+	}
+}
