@@ -25,7 +25,7 @@ import {
 } from "~/components/ui/popover";
 import { cn } from "~/lib/utils";
 import Logo from "../Logo";
-import TextEventItem from "./EventItem/TextEventItem";
+import EventItem from "./EventItem";
 
 interface EventListProps {
 	events: EventsTypeOutput;
@@ -328,7 +328,7 @@ export default function EventList({
 						{/* We're not filtering client-side anymore since we're triggering server fetches */}
 						{/* The server already gives us the filtered events based on the URL params */}
 						{events.map((event, index) => (
-							<TextEventItem
+							<EventItem
 								key={event.id}
 								event={event}
 								club={club}

@@ -8,13 +8,13 @@ export const copyToClipboard = async ({
 	event,
 }: { event: EventTypeOutput }) => {
 	try {
-		await navigator.clipboard.writeText(
-			event?.club?.urlSlug
-				? `${process.env.NEXT_PUBLIC_PROD_DOMAIN_URL}${event.city}/${event.club?.urlSlug}/${event.id}`
-				: `${process.env.NEXT_PUBLIC_PROD_DOMAIN_URL}${event?.city}`,
-		);
-		toast("Event link copied to clipboard!", {
-			description: "Now go share it with the world!",
+		const baseUrl =
+			process.env.NEXT_PUBLIC_PROD_DOMAIN_URL || "https://ngtly.com";
+		const cityUrl = `${baseUrl}/${event.city}`;
+
+		await navigator.clipboard.writeText(cityUrl);
+		toast("City link copied to clipboard!", {
+			description: "Share this link to show events in this city!",
 		});
 	} catch (err) {
 		console.error("Failed to copy: ", err);
